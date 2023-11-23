@@ -1,0 +1,33 @@
+<p>doctors list</p>
+<table>
+    <thead>
+        <th>id</th>
+        <th>name</th>
+        <th>speclization</th>
+        <th>opfee</th>
+        <th>mobilenumber</th>
+        <th>location</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let myUser of myUserData">
+            <td>
+                {{myUser.id}}
+            </td>
+            <td>
+                {{myUser.name}}
+            </td>
+            <td>
+                {{myUser.speclization}}
+            </td>
+            <td>
+                {{myUser.opfee}}
+            </td>
+            <td>
+                {{myUser.mobilenumber}}
+            </td>
+            <td>
+                {{myUser.location}}
+            </td>
+        </tr>
+    </tbody>
+</table>
